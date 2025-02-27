@@ -1,7 +1,7 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 local PhantomForcesWindow = Library:NewWindow("[NEW LTO] Learning with Pibby: Glitched Chaos")
 local KillingCheats = PhantomForcesWindow:NewSection("free emotes")
-KillingCheats:CreateButton("hollow purple", function()
+KillingCheats:("hollow purple", function()
 game:GetService("ReplicatedStorage").Remotes.ContainerKick:FireServer()
 print("HI")
 end)
